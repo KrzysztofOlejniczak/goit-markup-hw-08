@@ -40,6 +40,8 @@ body {
   color: var(--blue);
 }
 
+/* header */
+
 .header {
   background: var(--white);
 }
@@ -50,14 +52,6 @@ body {
   font-size: 26px;
   line-height: 1.192;
   color: var(--black);
-}
-
-.logo-white {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  color: var(--white);
 }
 
 .nav-link {
@@ -74,11 +68,13 @@ body {
   color: var(--grey);
 }
 
-.section-title {
+/* banner */
+
+.section-banner {
   background: var(--bg-dark);
 }
 
-.title {
+.banner {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
@@ -88,7 +84,7 @@ body {
   color: var(--white);
 }
 
-.title-btn {
+.banner-btn {
   width: 200px;
   height: 50px;
   background: var(--blue);
@@ -106,6 +102,8 @@ body {
   color: var(--white);
 }
 
+/* description */
+
 .section-description {
   background: var(--white);
 }
@@ -117,6 +115,8 @@ body {
   text-transform: uppercase;
   color: var(--nav-dark);
 }
+
+/* what we are doing  */
 
 .section-doing {
   background: var(--white);
@@ -130,6 +130,8 @@ body {
   text-align: center;
   color: var(--nav-dark);
 }
+
+/* our team  */
 
 .section-team {
   background: var(--bg-light);
@@ -159,8 +161,18 @@ body {
   color: var(--grey);
 }
 
+/* footer */
+
 .footer {
   background: var(--bg-dark);
+}
+
+.logo-white {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  color: var(--white);
 }
 
 .address {
