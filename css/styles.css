@@ -93,3 +93,16 @@ body {
   letter-spacing: 0.06em;
   color: var(--white);
 }
+
+.section-description {
+  background: var(--white);
+}
+
+.description-header {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-transform: uppercase;
+  color: var(--nav-dark);
+}
