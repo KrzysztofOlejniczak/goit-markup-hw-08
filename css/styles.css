@@ -188,7 +188,7 @@ body {
 
 /* portfolio filter */
 
-.filter {
+.portfolio {
   background: var(--white);
 }
 
@@ -217,10 +217,6 @@ body {
 }
 
 /* portfolio items  */
-
-.portfolio {
-  background: var(--white);
-}
 
 .portfolio-list {
   width: 370px;
