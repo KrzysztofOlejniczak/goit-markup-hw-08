@@ -6,8 +6,9 @@
   --blue: #2196f3;
   --nav-dark: #212121;
   --bg-dark: #2f303a;
-  --btn-shadow: rgba(0, 0, 0, 0.15);
   --bg-light: #f5f4fa;
+  --border-portfolio: #eeeeee;
+  --btn-shadow: rgba(0, 0, 0, 0.15);
   --footer-link: rgba(255, 255, 255, 0.6);
 }
 
@@ -100,6 +101,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white);
+  border: none;
 }
 
 /* description */
@@ -182,4 +184,59 @@ body {
 
 .contact-footer-link {
   color: var(--footer-link);
+}
+
+/* portfolio filter */
+
+.filter {
+  background: var(--white);
+}
+
+.filter-btn {
+  height: 38px;
+  background: var(--bg-light);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--nav-dark);
+  border: none;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background: var(--blue);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: none;
+  color: var(--white);
+}
+
+/* portfolio items  */
+
+.portfolio {
+  background: var(--white);
+}
+
+.portfolio-list {
+  width: 370px;
+  height: 404px;
+  background: var(--white);
+  border: 1px solid var(--border-portfolio);
+}
+
+.portfolio-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--nav-dark);
+}
+
+.portfolio-description {
+  line-height: 1.875;
 }
