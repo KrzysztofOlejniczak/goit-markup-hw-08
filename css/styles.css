@@ -69,6 +69,10 @@ body {
   color: var(--grey);
 }
 
+.current-link {
+  color: var(--blue);
+}
+
 /* banner */
 
 .section-banner {
@@ -160,7 +164,6 @@ body {
   font-size: 16px;
   line-height: 1.188;
   text-align: center;
-  color: var(--grey);
 }
 
 /* footer */
