@@ -37,7 +37,8 @@ body {
 .contact-link:hover,
 .contact-link:focus,
 .contact-footer-link:hover,
-.contact-footer-link:focus {
+.contact-footer-link:focus,
+.nav .current-link {
   color: var(--blue);
 }
 
@@ -67,10 +68,6 @@ body {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--grey);
-}
-
-.current-link {
-  color: var(--blue);
 }
 
 /* banner */
