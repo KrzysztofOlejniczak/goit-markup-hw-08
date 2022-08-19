@@ -121,6 +121,12 @@ p {
   padding: 200px 0;
 }
 
+.banner-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .banner {
   font-weight: 900;
   font-size: 44px;
@@ -132,10 +138,6 @@ p {
   width: 696px;
   margin: 0 auto;
 }
-
-/* .container .banner-btn {
-  align-items: center;
-} */
 
 .banner-btn {
   width: 200px;
