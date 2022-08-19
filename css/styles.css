@@ -158,12 +158,18 @@ p {
   background: var(--white);
 }
 
+.description-list {
+  display: flex;
+  gap: 30px;
+}
+
 .description-header {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
   text-transform: uppercase;
   color: var(--nav-dark);
+  margin-bottom: 10px;
 }
 
 /* what we are doing  */
