@@ -57,6 +57,10 @@ p {
   margin: 0 auto;
 }
 
+.section {
+  padding: 94px 0;
+}
+
 /* header */
 
 .header {
@@ -114,6 +118,7 @@ p {
 
 .section-banner {
   background: var(--bg-dark);
+  padding: 200px 0;
 }
 
 .banner {
@@ -124,6 +129,8 @@ p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white);
+  width: 696px;
+  margin: 0 auto;
 }
 
 .banner-btn {
@@ -137,12 +144,12 @@ p {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  /* display: flex; */
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white);
   border: none;
+  margin-top: 30px;
 }
 
 /* description */
