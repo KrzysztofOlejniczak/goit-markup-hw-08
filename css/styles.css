@@ -233,6 +233,7 @@ p {
 
 .footer {
   background: var(--bg-dark);
+  padding: 60px 0;
 }
 
 .logo-white {
@@ -244,8 +245,13 @@ p {
 }
 
 .address {
+  margin-top: 20px;
   color: var(--white);
   font-style: normal;
+}
+
+.contact-footer-list li {
+  margin: 9px 0;
 }
 
 .contact-footer-link {
