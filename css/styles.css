@@ -53,7 +53,7 @@ p {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -278,6 +278,7 @@ p {
   color: var(--nav-dark);
   border: none;
 }
+
 .filter-btn:hover,
 .filter-btn:focus {
   background: var(--blue);
