@@ -71,7 +71,7 @@ p {
 .header .container {
   display: flex;
   align-items: center;
-  height: 80px;
+  padding: 24px 0 25px;
 }
 
 .logo-black {
@@ -185,6 +185,12 @@ p {
   line-height: 1.167;
   text-align: center;
   color: var(--nav-dark);
+  margin-bottom: 50px;
+}
+
+.doing-list {
+  display: flex;
+  gap: 30px;
 }
 
 /* our team  */
