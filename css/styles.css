@@ -101,7 +101,7 @@ p {
 
 .nav-contact {
   display: flex;
-  margin-left: 371px;
+  margin-left: 345px;
 }
 
 .contact-link {
@@ -110,6 +110,18 @@ p {
   letter-spacing: 0.02em;
   color: var(--grey);
 }
+
+/* .test {
+  fill: red;
+}
+
+.icon-contact {
+  margin-right: 10px;
+}
+
+.icon-contact:hover {
+  fill: var(--blue);
+} */
 
 .nav-contact-margin {
   margin-right: 50px;
