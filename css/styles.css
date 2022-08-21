@@ -109,22 +109,20 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--grey);
+  fill: var(--grey);
 }
 
-/* .test {
-  fill: red;
+.contact-icon:hover,
+.contact-icon:focus {
+  fill: var(--blue);
 }
 
-.icon-contact {
+.icon-margin {
   margin-right: 10px;
 }
 
-.icon-contact:hover {
-  fill: var(--blue);
-} */
-
 .nav-contact-margin {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 /* banner */
@@ -184,6 +182,17 @@ p {
 .description-list {
   display: flex;
   gap: 30px;
+}
+
+.description-icon-box {
+  background: var(--bg-light);
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .description-header {
