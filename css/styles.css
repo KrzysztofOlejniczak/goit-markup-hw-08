@@ -219,7 +219,8 @@ img {
 }
 
 .doing-header,
-.team-header {
+.team-header,
+.clients-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -291,6 +292,36 @@ img {
 .team-social-link:focus {
   background-color: var(--blue);
   fill: var(--white);
+}
+
+/* our clients */
+
+.section-clients {
+  background: var(--white);
+}
+
+.clients-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.clients-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--team-social);
+  fill: var(--team-social);
+  border-radius: 4px;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  fill: var(--blue);
+  border-color: var(--blue);
 }
 
 /* footer */
@@ -378,6 +409,7 @@ img {
 .portfolio-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 
 .portfolio-header {
