@@ -74,7 +74,7 @@ img {
 /* header */
 
 .header {
-  background: var(--white);
+  background-color: var(--white);
   border-bottom: 1px solid var(--border-header);
 }
 
@@ -165,7 +165,7 @@ img {
 
 .banner-btn {
   width: 200px;
-  background: var(--blue);
+  background-color: var(--blue);
   box-shadow: 0px 4px 4px var(--btn-shadow);
   border-radius: 4px;
   cursor: pointer;
@@ -185,7 +185,7 @@ img {
 /* description */
 
 .section-description {
-  background: var(--white);
+  background-color: var(--white);
 }
 
 .description-list {
@@ -194,7 +194,7 @@ img {
 }
 
 .description-icon-box {
-  background: var(--bg-light);
+  background-color: var(--bg-light);
   height: 120px;
   width: 270px;
   border-radius: 4px;
@@ -216,7 +216,7 @@ img {
 /* what we are doing  */
 
 .section-doing {
-  background: var(--white);
+  background-color: var(--white);
 }
 
 .doing-header,
@@ -233,22 +233,24 @@ img {
 .doing-list {
   display: flex;
   gap: 30px;
+  justify-content: center;
 }
 
 /* our team  */
 
 .section-team {
-  background: var(--bg-light);
+  background-color: var(--bg-light);
 }
 
 .team-list {
   display: flex;
   gap: 30px;
+  justify-content: center;
 }
 
 .team-box {
   width: 270px;
-  background: var(--white);
+  background-color: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -298,7 +300,7 @@ img {
 /* our clients */
 
 .section-clients {
-  background: var(--white);
+  background-color: var(--white);
 }
 
 .clients-list {
@@ -328,7 +330,7 @@ img {
 /* portfolio filter */
 
 .portfolio {
-  background: var(--white);
+  background-color: var(--white);
 }
 
 .filter-list {
@@ -339,7 +341,7 @@ img {
 }
 
 .filter-btn {
-  background: var(--bg-light);
+  background-color: var(--bg-light);
   border-radius: 4px;
   cursor: pointer;
   font-family: 'Roboto';
@@ -355,7 +357,7 @@ img {
 
 .filter-btn:hover,
 .filter-btn:focus {
-  background: var(--blue);
+  background-color: var(--blue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -374,7 +376,7 @@ img {
 
 .portfolio-item {
   width: 370px;
-  background: var(--white);
+  background-color: var(--white);
   border: 1px solid var(--border-portfolio);
 }
 
@@ -401,7 +403,7 @@ img {
 /* footer */
 
 .footer {
-  background: var(--bg-dark);
+  background-color: var(--bg-dark);
   padding: 60px 0;
 }
 
