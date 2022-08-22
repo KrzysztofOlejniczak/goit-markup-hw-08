@@ -10,6 +10,7 @@
   --border-portfolio: #eeeeee;
   --border-header: #ececec;
   --team-social: #afb1b8;
+  --footer-social: rgba(255, 255, 255, 0.1);
   --gradient: rgba(47, 48, 58, 0.4);
   --btn-shadow: rgba(0, 0, 0, 0.15);
   --footer-link: rgba(255, 255, 255, 0.6);
@@ -324,35 +325,6 @@ img {
   border-color: var(--blue);
 }
 
-/* footer */
-
-.footer {
-  background: var(--bg-dark);
-  padding: 60px 0;
-}
-
-.logo-white {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--white);
-}
-
-.address {
-  margin-top: 20px;
-  color: var(--white);
-  font-style: normal;
-}
-
-.contact-footer-list li {
-  margin: 9px 0;
-}
-
-.contact-footer-link {
-  color: var(--footer-link);
-}
-
 /* portfolio filter */
 
 .portfolio {
@@ -424,4 +396,78 @@ img {
 .portfolio-description {
   line-height: 1.88;
   padding: 0 24px 20px 24px;
+}
+
+/* footer */
+
+.footer {
+  background: var(--bg-dark);
+  padding: 60px 0;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-address {
+  width: 246px;
+}
+
+.logo-white {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--white);
+}
+
+.address {
+  margin-top: 20px;
+  color: var(--white);
+  font-style: normal;
+}
+
+.contact-footer-list li {
+  margin: 9px 0;
+}
+
+.contact-footer-link {
+  color: var(--footer-link);
+}
+
+.footer-socials {
+  margin-top: 12px;
+  margin-left: 70px;
+}
+
+.footer-socials-header {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 20px;
+}
+
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--white);
+  background-color: var(--footer-social);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--blue);
 }
