@@ -191,6 +191,7 @@ img {
 .description-list {
   display: flex;
   gap: 30px;
+  justify-content: center;
 }
 
 .description-icon-box {
