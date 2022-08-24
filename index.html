@@ -57,7 +57,7 @@
       <section class="section-banner section">
         <div class="container banner-heading">
           <h1 class="banner">Efektywne rozwiązania dla Waszego biznesu</h1>
-          <button type="button" class="banner-btn">Zamów usługę</button>
+          <button type="button" class="banner-btn" data-modal-open>Zamów usługę</button>
         </div>
       </section>
       <section class="section-description section">
@@ -499,5 +499,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-box">
+        <button type="button" class="btn-modal-close" data-modal-close>
+          <svg width="18" height="18">
+            <use xlink:href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

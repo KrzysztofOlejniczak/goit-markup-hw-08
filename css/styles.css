@@ -539,3 +539,54 @@ img {
 .footer-social-link:focus {
   background-color: var(--blue);
 }
+
+/* modal window  */
+
+.backdrop {
+  display: flex;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.2);
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: visibility 250ms var(--transition-fn), opacity 250ms var(--transition-fn);
+}
+
+.modal-box {
+  position: relative;
+  width: 528px;
+  height: 581px;
+  background-color: var(--white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin: auto;
+  transition: transform 250ms var(--transition-fn);
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.is-hidden .modal-box {
+  transform: scale(0);
+}
+
+.btn-modal-close {
+  width: 30px;
+  height: 30px;
+  background-color: var(--white);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
