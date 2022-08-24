@@ -205,6 +205,7 @@ img {
 
 .section-description {
   background-color: var(--white);
+  padding-bottom: 0;
 }
 
 .description-list {
@@ -416,8 +417,6 @@ img {
 }
 
 .portfolio-item {
-  /* position: relative;
-  overflow: hidden; */
   width: 370px;
   background-color: var(--white);
   border: 1px solid var(--border-portfolio);
