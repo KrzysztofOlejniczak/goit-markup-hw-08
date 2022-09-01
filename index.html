@@ -403,34 +403,30 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container footer-container">
-        <div class="footer-address">
-          <a href="./index.html" class="link-no-underline logo-white"
-            ><span class="highlight-text">Web</span>Studio</a
+      <div class="container footer__container">
+        <div class="footer__address">
+          <a href="./index.html" class="logo logo--white"
+            ><span class="logo logo--highlight">Web</span>Studio</a
           >
           <address class="address">m. Warszawa, Aleje Jerozolimskie 21</address>
-          <ul class="contact-footer-list">
-            <li>
-              <a href="mailto:info@example.com" class="link-no-underline contact-footer-link"
-                >info@example.com</a
-              >
+          <ul>
+            <li class="footer__contact-item">
+              <a href="mailto:info@example.com" class="footer__contact-link">info@example.com</a>
             </li>
-            <li>
-              <a href="tel:+48111111111" class="link-no-underline contact-footer-link"
-                >+48 111 111 111</a
-              >
+            <li class="footer__contact-item">
+              <a href="tel:+48111111111" class="footer__contact-link">+48 111 111 111</a>
             </li>
           </ul>
         </div>
-        <div class="footer-socials">
-          <h4 class="footer-header">Dołącz do nas</h4>
-          <ul class="footer-social-list">
+        <div class="footer__socials">
+          <h4 class="footer__socials-heading">Dołącz do nas</h4>
+          <ul class="footer__socials-list">
             <li>
               <a
                 href="https://instagram.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="footer-social-link">
+                class="footer__social-link">
                 <svg width="20" height="20">
                   <use xlink:href="./images/icons.svg#instagram"></use>
                 </svg>
@@ -441,7 +437,7 @@
                 href="https://twitter.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="footer-social-link">
+                class="footer__social-link">
                 <svg width="20" height="20">
                   <use xlink:href="./images/icons.svg#twitter"></use></svg
               ></a>
@@ -451,7 +447,7 @@
                 href="https://facebook.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="footer-social-link">
+                class="footer__social-link">
                 <svg width="20" height="20">
                   <use xlink:href="./images/icons.svg#facebook"></use></svg
               ></a>
@@ -461,20 +457,20 @@
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="footer-social-link">
+                class="footer__social-link">
                 <svg width="20" height="20">
                   <use xlink:href="./images/icons.svg#linkedin"></use></svg
               ></a>
             </li>
           </ul>
         </div>
-        <div class="footer-newsletter">
-          <h4 class="footer-header">Zapisz się do newslettera</h4>
-          <form name="newsletter" autocomplete="on" class="form-newsletter">
-            <input type="email" name="email" placeholder="E-mail" class="input-newsletter" />
-            <button type="submit" class="btn-newsletter">
+        <div class="footer__newsletter">
+          <h4 class="footer__heading">Zapisz się do newslettera</h4>
+          <form name="newsletter" autocomplete="on" class="footer__form">
+            <input type="email" name="email" placeholder="E-mail" class="footer__input" />
+            <button type="submit" class="footer__btn">
               Zapisz się
-              <svg width="24" height="24" class="icon-btn-newsletter">
+              <svg width="24" height="24" class="footer__btn-icon">
                 <use xlink:href="./images/icons.svg#send"></use>
               </svg>
             </button>
@@ -483,56 +479,56 @@
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal-box">
-        <button type="button" class="btn-modal-close" data-modal-close>
+      <div class="modal">
+        <button type="button" class="modal__btn-close" data-modal-close>
           <svg width="18" height="18">
             <use xlink:href="./images/icons.svg#close"></use>
           </svg>
         </button>
-        <h5 class="header-modal">Zostaw swoje dane w formularzu poniżej</h5>
-        <form name="contact" autocomplete="on" class="form-modal">
-          <label for="user-name" class="label-modal">Imię</label>
-          <div class="form-highlight">
-            <input type="text" name="name" class="input-modal" id="user-name" />
-            <svg width="12" height="12" class="input-modal-icon icon-1">
+        <h5 class="modal__heading">Zostaw swoje dane w formularzu poniżej</h5>
+        <form name="contact" autocomplete="on" class="modal__form">
+          <label for="user-name" class="modal__label">Imię</label>
+          <div class="modal__form-highlight">
+            <input type="text" name="name" class="modal__input" id="user-name" />
+            <svg width="12" height="12" class="modal__input-icon modal__input-icon--position-1">
               <use xlink:href="./images/icons.svg#person"></use>
             </svg>
           </div>
-          <label for="user-phone" class="label-modal">Telefon</label>
-          <div class="form-highlight">
-            <input type="tel" name="phone" class="input-modal" id="user-phone" />
-            <svg width="13" height="13" class="input-modal-icon icon-2">
+          <label for="user-phone" class="modal__label">Telefon</label>
+          <div class="modal__form-highlight">
+            <input type="tel" name="phone" class="modal__input" id="user-phone" />
+            <svg width="13" height="13" class="modal__input-icon modal__input-icon--position-2">
               <use xlink:href="./images/icons.svg#phone"></use>
             </svg>
           </div>
-          <label for="user-mail" class="label-modal">Email</label>
-          <div class="form-highlight">
-            <input type="email" name="mail" class="input-modal" id="user-mail" />
-            <svg width="15" height="12" class="input-modal-icon icon-3">
+          <label for="user-mail" class="modal__label">Email</label>
+          <div class="modal__form-highlight">
+            <input type="email" name="mail" class="modal__input" id="user-mail" />
+            <svg width="15" height="12" class="modal__input-icon modal__input-icon--position-3">
               <use xlink:href="./images/icons.svg#email"></use>
             </svg>
           </div>
-          <label for="user-comment" class="label-modal">Komentarz</label>
-          <div class="form-highlight">
+          <label for="user-comment" class="modal__label">Komentarz</label>
+          <div class="modal__form-highlight">
             <textarea
               name="comment"
               id="user-comment"
               placeholder="Wprowadź tekst"
-              class="input-modal-text"></textarea>
+              class="modal__input-text"></textarea>
           </div>
-          <div class="user-agreements">
+          <div class="modal__agreements">
             <input
               type="checkbox"
               required
               name="agreement"
-              class="box-custom box-hidden"
+              class="modal__box-custom modal__box-hidden"
               id="user-agreement" />
-            <p class="agreement-text">
-              Oświadczam, iż akceptuję <a href="#" class="agreement-link">Regulamin</a> i
-              <a href="#" class="agreement-link">Politykę Prywatności</a>.
+            <p class="modal__agreement-text">
+              Oświadczam, iż akceptuję <a href="#" class="modal__agreement-link">Regulamin</a> i
+              <a href="#" class="modal__agreement-link">Politykę Prywatności</a>.
             </p>
           </div>
-          <button type="submit" class="btn-modal-send">Wyślij</button>
+          <button type="submit" class="modal__btn-send">Wyślij</button>
         </form>
       </div>
     </div>
