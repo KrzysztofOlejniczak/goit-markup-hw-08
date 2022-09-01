@@ -1,0 +1,32 @@
+.clients {
+  background-color: $white;
+
+  &__heading {
+    @extend %heading;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid $team-social;
+    fill: $team-social;
+    border-radius: 4px;
+    transition: 250ms fill $transition-fn, 250ms border-color $transition-fn;
+
+    &:hover,
+    &:focus {
+      fill: $highlight;
+      border-color: $highlight;
+    }
+  }
+}

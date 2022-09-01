@@ -1,0 +1,40 @@
+.menu {
+  margin-left: 93px;
+
+  &__list {
+    display: flex;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 46px;
+  }
+
+  &__link {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $nav-dark;
+    transition: 250ms color $transition-fn;
+
+    &:hover,
+    &:focus {
+      color: $highlight;
+    }
+
+    &--current {
+      color: $highlight;
+    }
+
+    &--current::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 4px;
+      bottom: 0;
+      left: 0;
+      background-color: $highlight;
+      transform: translateY(28px);
+      border-radius: 2px;
+    }
+  }
+}

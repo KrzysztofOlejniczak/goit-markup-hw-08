@@ -1,0 +1,45 @@
+.banner {
+  background-color: $bg-dark;
+  background-image: linear-gradient($gradient, $gradient), url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 200px 0;
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__heading {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $white;
+    width: 696px;
+    margin: 0 auto;
+  }
+
+  &__btn {
+    width: 200px;
+    background-color: $highlight;
+    box-shadow: 0px 4px 4px $btn-shadow;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: $primary-font;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: $white;
+    border: none;
+    margin-top: 30px;
+    padding: 10px 0;
+  }
+}

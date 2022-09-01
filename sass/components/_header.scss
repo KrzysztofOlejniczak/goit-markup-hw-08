@@ -1,0 +1,42 @@
+.header {
+  background-color: $white;
+  border-bottom: 1px solid $border-header;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    padding: 24px 0 25px;
+  }
+
+  &__logo {
+    margin-left: 15px;
+  }
+
+  &__contact-list {
+    display: flex;
+    margin-left: 345px;
+  }
+
+  &__contact-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__contact-link {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $grey;
+    fill: $grey;
+    transition: 250ms color $transition-fn, 250ms fill $transition-fn;
+
+    &:hover,
+    &:focus {
+      color: $highlight;
+      fill: $highlight;
+    }
+  }
+
+  &__contact-icon {
+    margin-right: 10px;
+  }
+}
