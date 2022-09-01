@@ -692,7 +692,7 @@ img {
   transition: border-color 250ms var(--transition-fn);
 }
 
-.modal_input-icon {
+.modal__input-icon {
   fill: var(--nav-dark);
   transition: fill 250ms var(--transition-fn);
 }
