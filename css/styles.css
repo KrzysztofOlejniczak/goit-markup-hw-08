@@ -365,18 +365,27 @@ img {
 
 /* our clients */
 
-.section-clients {
+.clients {
   background-color: var(--white);
 }
 
-.clients-list {
+.clients__heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--nav-dark);
+  margin-bottom: 50px;
+}
+
+.clients__list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
 }
 
-.clients-link {
+.clients__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -388,8 +397,8 @@ img {
   transition: 250ms fill var(--transition-fn), 250ms border-color var(--transition-fn);
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   fill: var(--blue);
   border-color: var(--blue);
 }
