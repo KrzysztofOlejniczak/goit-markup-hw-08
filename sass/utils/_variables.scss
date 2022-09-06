@@ -21,6 +21,6 @@ $secondary-font: 'Raleway';
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  color: var(--nav-dark);
+  color: $nav-dark;
   margin-bottom: 50px;
 }
