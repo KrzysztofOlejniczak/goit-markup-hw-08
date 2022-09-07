@@ -6,13 +6,20 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: $grey;
+  min-width: 320px;
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .section {
   padding: 94px 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }

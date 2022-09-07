@@ -1,12 +1,13 @@
 .menu {
-  margin-left: 93px;
+  margin-left: 83px;
+  margin-right: 101px;
 
   &__list {
-    display: flex;
+    display: none;
   }
 
   &__item:not(:last-child) {
-    margin-right: 46px;
+    margin-right: 60px;
   }
 
   &__link {
@@ -35,6 +36,23 @@
       background-color: $highlight;
       transform: translateY(28px);
       border-radius: 2px;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .menu {
+    &__list {
+      display: flex;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .menu {
+    margin-left: 93px;
+    margin-right: 0;
+
+    &__item:not(:last-child) {
+      margin-right: 46px;
     }
   }
 }
