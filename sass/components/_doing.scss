@@ -1,5 +1,6 @@
 .doing {
   background-color: $white;
+  display: none;
 
   &__heading {
     @extend %heading;
@@ -28,5 +29,10 @@
     padding: 27px 0;
     color: $white;
     background-color: rgba(47, 48, 58, 0.8);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .doing {
+    display: block;
   }
 }
