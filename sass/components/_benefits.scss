@@ -1,21 +1,27 @@
 .benefits {
   background-color: $white;
-  padding-bottom: 0;
+  padding-bottom: 60;
 
   &__list {
     display: flex;
+    flex-direction: column;
     gap: 30px;
     justify-content: center;
+    align-items: center;
+    padding: 0 15px;
   }
 
   &__item {
-    flex-basis: 270px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
   }
 
   &__icon-box {
     background-color: $bg-light;
     height: 120px;
-    width: 270px;
+    width: 100%;
     border-radius: 4px;
     margin-bottom: 30px;
     display: flex;
@@ -30,5 +36,43 @@
     text-transform: uppercase;
     color: $nav-dark;
     margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .benefits {
+    padding-bottom: 45px;
+
+    &__list {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    &__icon-box {
+      width: 354px;
+    }
+
+    &__item {
+      width: 354px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .benefits {
+    padding-bottom: 0px;
+
+    &__list {
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
+
+    &__icon-box {
+      width: 270px;
+    }
+
+    &__item {
+      width: 270px;
+    }
   }
 }
