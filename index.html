@@ -57,12 +57,12 @@
       </div>
     </header>
     <main>
-      <!-- <section class="section banner">
+      <section class="section banner">
         <div class="container banner__section">
-          <h1 class="banner__heading">Efektywne rozwiązania dla Waszego biznesu</h1>
+          <h1 class="banner__heading">Efektywne rozwiązania<br />dla Waszego biznesu</h1>
           <button type="button" class="banner__btn" data-modal-open>Zamów usługę</button>
         </div>
-      </section> -->
+      </section>
       <section class="section benefits">
         <div class="container">
           <ul class="benefits__list">
@@ -122,27 +122,46 @@
           <h2 class="doing__heading">Czym się zajmujemy</h2>
           <ul class="doing__list">
             <li class="doing__item">
-              <img
-                src="./images/img01.jpg"
-                alt="Dłonie mężczyzny piszące kod na klawiaturze"
-                width="370"
-                height="294" />
+              <picture>
+                <source
+                  srcset="./images/doing/img01.webp 1x, ./images/doing/img01@2x.webp 2x"
+                  media="(min-width: 1200px)"
+                  type="image/webp" />
+                <source
+                  srcset="./images/doing/img01.jpg 1x, ./images/doing/img01@2x.jpg 2x"
+                  media="(min-width: 1200px)" />
+                <img
+                  src="./images/doing/img01.jpg"
+                  alt="Dłonie mężczyzny piszące kod na klawiaturze"
+              /></picture>
               <p class="doing__img-label">Aplikacje komputerowe</p>
             </li>
             <li class="doing__item">
-              <img
-                src="./images/img02.jpg"
-                alt="Kobieta przy laptopie trzymająca telefon w dłoni"
-                width="370"
-                height="294" />
+              <picture>
+                <source
+                  srcset="./images/doing/img02.webp 1x, ./images/doing/img02@2x.webp 2x"
+                  media="(min-width: 1200px)"
+                  type="image/webp" />
+                <source
+                  srcset="./images/doing/img02.jpg 1x, ./images/doing/img02@2x.jpg 2x"
+                  media="(min-width: 1200px)" />
+                <img
+                  src="./images/doing/img02.jpg"
+                  alt="Kobieta przy laptopie trzymająca telefon w dłoni"
+              /></picture>
               <p class="doing__img-label">Aplikacje mobilne</p>
             </li>
             <li class="doing__item">
-              <img
-                src="./images/img03.jpg"
-                alt="Wybór koloru z palety barw na tablecie"
-                width="370"
-                height="294" />
+              <picture>
+                <source
+                  srcset="./images/doing/img03.webp 1x, ./images/doing/img03@2x.webp 2x"
+                  media="(min-width: 1200px)"
+                  type="image/webp" />
+                <source
+                  srcset="./images/doing/img03.jpg 1x, ./images/doing/img03@2x.jpg 2x"
+                  media="(min-width: 1200px)" />
+                <img src="./images/doing/img03.jpg" alt="Wybór koloru z palety barw na tablecie"
+              /></picture>
               <p class="doing__img-label">Rozwiązania graficzne</p>
             </li>
           </ul>
