@@ -24,3 +24,9 @@ $secondary-font: 'Raleway';
   color: $nav-dark;
   margin-bottom: 30px;
 }
+
+@media screen and (min-width: 1200px) {
+  %heading {
+    margin-bottom: 50px;
+  }
+}

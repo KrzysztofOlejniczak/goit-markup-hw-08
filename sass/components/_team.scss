@@ -7,12 +7,15 @@
 
   &__list {
     display: flex;
+    flex-direction: column;
     gap: 30px;
+    padding: 0 15px;
     justify-content: center;
+    align-items: center;
   }
 
   &__item {
-    width: 270px;
+    max-width: 450px;
     background-color: $white;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -40,7 +43,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
   }
 
   &__social-link {
@@ -58,6 +61,31 @@
     &:focus {
       background-color: $highlight;
       fill: $white;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team {
+    &__list {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    &__item {
+      width: 354px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team {
+    &__item {
+      width: 270px;
+    }
+
+    &__social-list {
+      margin-bottom: 30px;
     }
   }
 }
