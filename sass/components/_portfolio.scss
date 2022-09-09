@@ -28,6 +28,10 @@
     transition: 250ms background-color $transition-fn, 250ms color $transition-fn,
       250ms box-shadow $transition-fn;
 
+    &:nth-of-type(5) {
+      background-color: black;
+    }
+
     &:hover,
     &:focus {
       background-color: $highlight;
@@ -68,6 +72,8 @@
   }
 
   &__text {
+    display: flex;
+    align-items: center;
     position: absolute;
     top: 0;
     left: 0;
