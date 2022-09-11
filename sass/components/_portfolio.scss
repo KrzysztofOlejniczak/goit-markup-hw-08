@@ -14,23 +14,23 @@
 
   &__filter-item {
     &:nth-of-type(1) .portfolio__btn {
-      padding: 6px 13px;
+      width: 103px;
     }
 
     &:nth-of-type(2) .portfolio__btn {
-      padding: 6px 40px;
+      width: 130px;
     }
 
     &:nth-of-type(3) .portfolio__btn {
-      padding: 6px 37px;
+      width: 145px;
     }
 
     &:nth-of-type(4) .portfolio__btn {
-      padding: 6px 28px;
+      width: 103px;
     }
 
     &:nth-of-type(5) .portfolio__btn {
-      padding: 6px 26px;
+      width: 130px;
     }
   }
 
@@ -46,7 +46,7 @@
     letter-spacing: 0.03em;
     color: $nav-dark;
     border: none;
-    padding: 6px 22px;
+    padding: 6px;
     transition: 250ms background-color $transition-fn, 250ms color $transition-fn,
       250ms box-shadow $transition-fn;
 
@@ -159,6 +159,27 @@
     &__filter-list {
       justify-content: center;
       margin-bottom: 50px;
+    }
+    &__filter-item {
+      &:nth-of-type(1) .portfolio__btn {
+        width: 121px;
+      }
+
+      &:nth-of-type(2) .portfolio__btn {
+        width: 93px;
+      }
+
+      &:nth-of-type(3) .portfolio__btn {
+        width: 114px;
+      }
+
+      &:nth-of-type(4) .portfolio__btn {
+        width: 91px;
+      }
+
+      &:nth-of-type(5) .portfolio__btn {
+        width: 121px;
+      }
     }
 
     &__list {
