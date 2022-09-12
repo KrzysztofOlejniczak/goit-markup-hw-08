@@ -85,6 +85,7 @@
   &__social-list {
     padding-top: 64px;
     display: flex;
+    align-items: center;
     gap: 10px;
   }
 
@@ -95,12 +96,14 @@
     letter-spacing: 0.02em;
     color: $highlight;
   }
+
   &__social-item {
     &:not(:last-child)::after {
       content: '';
       margin-left: 10px;
       width: 22px;
       border: 1px solid rgba(33, 33, 33, 0.2);
+      background-color: rgba(33, 33, 33, 0.2);
       transform: rotate(90deg);
     }
   }
